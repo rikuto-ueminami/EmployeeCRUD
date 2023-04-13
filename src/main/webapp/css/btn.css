@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* 各JSPファイルで使うボタンだけを集めたcssファイル */
+.form-btn {
+	background-color: deeppink;
+	border-radius: 7px;
+}
+
+.update-btn {
+	color: white;
+	background-color: lightgreen;
+	border-radius: 7px;
+}
+
+.edit-btn {
+	display: block;
+	width: 40px;
+	background: rgb(0, 255, 64);
+	color: black;
+	border-radius: 5px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.delete-btn {
+	display: block;
+	width: 40px;
+	background: red;
+	color: black;
+	border-radius: 5px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.edit-btn:hover{
+	background: #225f0d;
+}
+
+.delete-btn:hover{
+	background: rgb(128, 0, 0);
+}
+
+.new-btn {
+	display: block;
+	width: 130px;
+	background: white;
+	color: black;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.index-btn {
+	display: block;
+	width: 130px;
+	background: white;
+	color: black;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-decoration: none;
+	text-align: center;
+}

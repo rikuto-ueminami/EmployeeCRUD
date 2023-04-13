@@ -1,0 +1,14 @@
+@charset "UTF-8";
+nav {
+	width: 400px;
+}
+
+ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+li {
+	list-style: none;
+	margin-left: 20px;
+}
